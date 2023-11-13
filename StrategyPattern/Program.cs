@@ -1,9 +1,11 @@
-﻿namespace StrategyPattern
+﻿using StrategyPattern.Behaviors;
+using StrategyPattern.Ducks;
+
+namespace StrategyPattern
 {
-    void class MallardDuck
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             MallardDuck mallard = new MallardDuck();
             RubberDuck rubberDuckie = new RubberDuck();
